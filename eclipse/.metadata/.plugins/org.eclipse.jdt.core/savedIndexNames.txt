@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\Bryce\Desktop\mcp62\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1954120464.index
+2501520862.index
+2549917922.index
+1182967862.index
+137624701.index
+3444757604.index

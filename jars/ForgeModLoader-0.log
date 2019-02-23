@@ -1,0 +1,61 @@
+2019-02-22 20:14:04 [INFO] Forge Mod Loader version 2.2.106.176 for Minecraft c:1.2.5, s:1.2.5 loading
+2019-02-22 20:14:04 [FINE] No mod directory found, creating one: C:\Users\Bryce\Desktop\mcp62\jars\mods
+2019-02-22 20:14:04 [FINE] No config directory found, creating one: C:\Users\Bryce\Desktop\mcp62\jars\config
+2019-02-22 20:14:04 [FINE] Attempting to load mods contained in the minecraft jar file and associated classes
+2019-02-22 20:14:04 [FINE] Found a minecraft related directory at C:\Users\Bryce\Desktop\mcp62\eclipse\Client\bin, loading
+2019-02-22 20:14:04 [FINEST] Recursing into package argo
+2019-02-22 20:14:04 [FINEST] Recursing into package argo.format
+2019-02-22 20:14:04 [FINEST] Recursing into package argo.jdom
+2019-02-22 20:14:04 [FINEST] Recursing into package argo.saj
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml.client
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml.common
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml.common.modloader
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml.common.registry
+2019-02-22 20:14:04 [FINEST] Recursing into package cpw.mods.fml.common.toposort
+2019-02-22 20:14:04 [FINEST] Recursing into package ibxm
+2019-02-22 20:14:04 [FINEST] Recursing into package net
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.client
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.isom
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.src
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.src.forge
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.src.forge.adaptors
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.src.forge.oredict
+2019-02-22 20:14:04 [FINEST] Recursing into package net.minecraft.src.forge.packets
+2019-02-22 20:14:04 [FINE] Found a mod class net.minecraft.src.mod_MinecraftForge in directory src, attempting to load it
+2019-02-22 20:14:04 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge found, loading
+2019-02-22 20:14:04 [FINE] ModLoader BaseMod class net.minecraft.src.mod_MinecraftForge loaded
+2019-02-22 20:14:04 [FINE] Successfully loaded mod class mod_MinecraftForge.class
+2019-02-22 20:14:04 [FINEST] Recursing into package paulscode
+2019-02-22 20:14:04 [FINEST] Recursing into package paulscode.sound
+2019-02-22 20:14:04 [FINEST] Recursing into package paulscode.sound.codecs
+2019-02-22 20:14:04 [FINE] Found a minecraft related file at C:\Users\Bryce\Desktop\mcp62\jars\bin\jinput.jar, loading
+2019-02-22 20:14:04 [FINE] Found a minecraft related file at C:\Users\Bryce\Desktop\mcp62\jars\bin\lwjgl_util.jar, loading
+2019-02-22 20:14:04 [FINE] Found a minecraft related file at C:\Users\Bryce\Desktop\mcp62\jars\bin\lwjgl.jar, loading
+2019-02-22 20:14:04 [FINE] Found a minecraft related file at C:\Users\Bryce\Desktop\mcp62\jars\bin\minecraft.jar, loading
+2019-02-22 20:14:04 [FINE] Minecraft jar mods loaded successfully
+2019-02-22 20:14:04 [INFO] Loading mods from C:\Users\Bryce\Desktop\mcp62\jars\mods
+2019-02-22 20:14:04 [INFO] Forge Mod Loader has loaded 1 mods
+2019-02-22 20:14:04 [FINE] Beginning mod pre-initialization
+2019-02-22 20:14:04 [FINER] Pre-initializing C:\Users\Bryce\Desktop\mcp62\eclipse\Client\bin\net\minecraft\src
+2019-02-22 20:14:04 [FINEST] Configuration for mod_MinecraftForge.DISABLE_DARK_ROOMS found values default: false, configured: false, interpreted: false
+2019-02-22 20:14:04 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_ALLOW_ON_INVERTED found values default: true, configured: true, interpreted: true
+2019-02-22 20:14:04 [FINEST] Configuration for mod_MinecraftForge.SPAWNER_MAKE_MORE_RANDOM found values default: false, configured: false, interpreted: false
+2019-02-22 20:14:04 [FINE] Configuration for mod_MinecraftForge written to mod_MinecraftForge.cfg
+2019-02-22 20:14:04 [FINE] Mod pre-initialization complete
+2019-02-22 20:14:04 [FINE] Verifying mod dependencies are satisfied
+2019-02-22 20:14:04 [FINE] All dependencies are satisfied
+2019-02-22 20:14:04 [FINE] Sorting mods into an ordered list
+2019-02-22 20:14:04 [FINE] Sorted mod list:
+2019-02-22 20:14:04 [FINE] 	mod_MinecraftForge: src ()
+2019-02-22 20:14:04 [FINE] Beginning mod initialization
+2019-02-22 20:14:04 [FINER] Initializing mod_MinecraftForge
+2019-02-22 20:14:04 [INFO] MinecraftForge v3.3.8.164 Initialized
+2019-02-22 20:14:04 [FINE] Mod initialization complete
+2019-02-22 20:14:04 [FINE] Beginning mod post-initialization
+2019-02-22 20:14:04 [FINER] Post-initializing mod_MinecraftForge
+2019-02-22 20:14:04 [FINE] Mod post-initialization complete
+2019-02-22 20:14:04 [INFO] Forge Mod Loader load complete, 1 mods loaded

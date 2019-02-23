@@ -1,0 +1,26 @@
+***************
+*** 313,320 ****
+              var26.addVertexWithUV((double)(128 + var27), (double)(0 - var27), 0.0D, 1.0D, 0.0D);
+              var26.addVertexWithUV((double)(0 - var27), (double)(0 - var27), 0.0D, 0.0D, 0.0D);
+              var26.draw();
+-             MapData var23 = Item.map.getMapData(var14, this.mc.theWorld);
+-             this.mapItemRenderer.renderMap(this.mc.thePlayer, this.mc.renderEngine, var23);
+              GL11.glPopMatrix();
+          }
+          else if (var14 != null)
+--- 320,334 ----
+              var26.addVertexWithUV((double)(128 + var27), (double)(0 - var27), 0.0D, 1.0D, 0.0D);
+              var26.addVertexWithUV((double)(0 - var27), (double)(0 - var27), 0.0D, 0.0D, 0.0D);
+              var26.draw();
++             MapData var23 = ((ItemMap)var14.getItem()).getMapData(var14, this.mc.theWorld);
++             if (custom == null)
++             {
++                 this.mapItemRenderer.renderMap(this.mc.thePlayer, this.mc.renderEngine, var23);
++             }
++             else
++             {
++                 custom.renderItem(FIRST_PERSON_MAP, var14, mc.thePlayer, mc.renderEngine, var23);
++             }
+              GL11.glPopMatrix();
+          }
+          else if (var14 != null)

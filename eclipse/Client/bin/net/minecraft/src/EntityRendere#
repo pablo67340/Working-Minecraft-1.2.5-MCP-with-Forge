@@ -1,0 +1,45 @@
+***************
+*** 1095,1102 ****
+                      var20 = (EntityPlayer)var4;
+                      GL11.glDisable(GL11.GL_ALPHA_TEST);
+                      Profiler.endStartSection("outline");
+-                     var5.drawBlockBreaking(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
+-                     var5.drawSelectionBox(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
+                      GL11.glEnable(GL11.GL_ALPHA_TEST);
+                  }
+              }
+--- 1106,1116 ----
+                      var20 = (EntityPlayer)var4;
+                      GL11.glDisable(GL11.GL_ALPHA_TEST);
+                      Profiler.endStartSection("outline");
++                     if (!ForgeHooksClient.onBlockHighlight(var5, var20, mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1))
++                     {
++                         var5.drawBlockBreaking(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
++                         var5.drawSelectionBox(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
++                     }
+                      GL11.glEnable(GL11.GL_ALPHA_TEST);
+                  }
+              }
+***************
+*** 1160,1167 ****
+                  var20 = (EntityPlayer)var4;
+                  GL11.glDisable(GL11.GL_ALPHA_TEST);
+                  Profiler.endStartSection("outline");
+-                 var5.drawBlockBreaking(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
+-                 var5.drawSelectionBox(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
+                  GL11.glEnable(GL11.GL_ALPHA_TEST);
+              }
+  
+--- 1174,1185 ----
+                  var20 = (EntityPlayer)var4;
+                  GL11.glDisable(GL11.GL_ALPHA_TEST);
+                  Profiler.endStartSection("outline");
++ 
++                 if (!ForgeHooksClient.onBlockHighlight(var5, var20, mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1))
++                 {
++                     var5.drawBlockBreaking(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
++                     var5.drawSelectionBox(var20, this.mc.objectMouseOver, 0, var20.inventory.getCurrentItem(), par1);
++                 }
+                  GL11.glEnable(GL11.GL_ALPHA_TEST);
+              }
+  

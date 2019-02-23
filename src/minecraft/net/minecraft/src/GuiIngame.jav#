@@ -1,0 +1,29 @@
+***************
+*** 142,148 ****
+  
+                  var46 = var7 - 39;
+                  var22 = var46 - 10;
+-                 var23 = this.mc.thePlayer.getTotalArmorValue();
+                  int var24 = -1;
+  
+                  if (this.mc.thePlayer.isPotionActive(Potion.regeneration))
+--- 144,162 ----
+  
+                  var46 = var7 - 39;
+                  var22 = var46 - 10;
++                 var23 = 0;
++                 for (int x = 0; x < mc.thePlayer.inventory.armorInventory.length; x++)
++                 {
++                     ItemStack stack = mc.thePlayer.inventory.armorInventory[x];
++                     if (stack != null && stack.getItem() instanceof ISpecialArmor)
++                     {
++                         var23 += ((ISpecialArmor)stack.getItem()).getArmorDisplay(mc.thePlayer, stack, x);
++                     }
++                     else if (stack != null && stack.getItem() instanceof ItemArmor)
++                     {
++                         var23 += ((ItemArmor)stack.getItem()).damageReduceAmount;
++                     }
++                 }
+                  int var24 = -1;
+  
+                  if (this.mc.thePlayer.isPotionActive(Potion.regeneration))
